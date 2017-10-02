@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --bh /http://www.kcjonesevans.com/primeng/",
+    "build": "ng build -d /http://www.kcjonesevans.com/primeng/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
