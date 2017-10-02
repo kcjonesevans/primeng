@@ -3,7 +3,7 @@
 **I'm submitting a ...**  (check one with "x")
 ```
 [ ] bug report => Search github for a similar issue or PR before submitting
-[ ] feature request => Please check if request is not on the roadmap already https://github.com/primefaces/primeng/wiki/Roadmap
+[ ] feature request => Please check if request is not on the roadmap already https://github.com/primefaceswiki/Roadmap
 [ ] support request => Please do not submit support request here, instead see http://forum.primefaces.org/viewforum.php?f=35
 ```
 

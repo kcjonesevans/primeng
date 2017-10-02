@@ -1680,7 +1680,7 @@ var Calendar = (function () {
         event.preventDefault();
     };
     Calendar.prototype.onUserInput = function (event) {
-        // IE 11 Workaround for input placeholder : https://github.com/primefaces/primeng/issues/2026
+        // IE 11 Workaround for input placeholder : https://github.com/primefacesissues/2026
         if (!this.isKeydown) {
             return;
         }
