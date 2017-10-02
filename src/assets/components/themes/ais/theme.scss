@@ -1,0 +1,112 @@
+//autocompile
+$fontFamily: Segoe UI, Arial, sans-serif;
+$fontSize: 1em;
+$borderRadius: 6px;
+$disabledOpacity: 0.35;
+//set overlay-opacity for items that cover the ma
+$overlay-opacity : 0.5;
+
+$color-primary: #f0ad4e !default;
+$color-primary-darker: darken($color-primary, 10%) !default;
+$color-primary-darkest: darken($color-primary, 20%) !default;
+
+$color-secondary: #59b4d4;
+$color-secondary-dark: darken($color-secondary, 20%);
+$color-secondary-darkest: darken($color-secondary, 30%);
+
+$color-base: #212121;
+
+$success: #5cb85c;
+$info: #5bc0de;
+$warning: #f0ad4e;
+$danger: #d9534f;
+
+// Hat tip to: https://seesparkbox.com/foundry/sassy_grayscale
+$clr-white: #ffffff;
+$clr-gray-98: #f3f3f3;
+$clr-gray-95: #ededed;
+$clr-gray-90: #e3e3e3;
+$clr-gray-85: #d9d9d9;
+$clr-gray-80: #cccccc;
+$clr-gray-75: #c0c0c0;
+$clr-gray-70: #b0b0b0;
+$clr-gray-60: #999999;
+$clr-gray-50: #808080;
+$clr-gray-45: #727272;
+$clr-gray-40: #696969;
+$clr-gray-30: #4d4d4d;
+$clr-gray-20: #363636;
+$clr-gray-15: #222222;
+$clr-gray-10: #171717;
+$clr-black: #000000;
+
+$fontFamily: Segoe UI, Arial, sans-serif;
+$fontSize: 1em;
+$borderRadius: 6px;
+$disabledOpacity: 0.35;
+
+//Header
+$headerBorderWidth: 1px;
+$headerBorderColor: $clr-gray-30;
+$headerBgColor: $clr-gray-20;
+$headerTextColor: $clr-gray-80;
+$headerFontWeight: bold;
+$headerIconTextColor: clr-gray-80;
+
+//Content
+$contentBorderWidth: 1px;
+$contentBorderColor: $clr-gray-20;
+$contentBgColor:$clr-black;
+$contentTextColor: $clr-gray-80;
+
+//Default State
+$stateDefaultBorderWidth: 1px;
+$stateDefaultBorderColor: $clr-gray-20;
+$stateDefaultBgColor: $color-base;
+$stateDefaultTextColor: $clr-gray-98;
+
+//Active State
+$stateActiveBorderColor: $color-primary-darker;
+$stateActiveBgColor: $color-primary-darkest;
+$stateActiveTextColor: $clr-gray-98;
+
+//Highlight State
+$stateHighlightBorderColor: $clr-gray-80;
+$stateHighlightBgColor: $color-base;
+$stateHighlightTextColor: $color-secondary-darkest;
+
+//Focus State
+$stateFocusBorderColor: $color-secondary;
+$stateFocusBgColor: $color-secondary-dark;
+$stateFocusTextColor: $clr-gray-98;
+
+//Error State
+$stateErrorBorderColor: $danger;
+$stateErrorBgColor: $danger;
+$stateErrorTextColor: $clr-gray-10;
+
+//Hover State
+$stateHoverBorderColor: $color-secondary;
+$stateHoverBgColor: $color-secondary-dark;
+$stateHoverTextColor: $clr-gray-98;
+
+//Forms
+$inputBgColor: $color-base;
+$inputTextColor: $clr-gray-98;
+$invalidInputBorderColor: $color-primary;
+$inputGroupTextColor: $clr-gray-98;
+
+
+@import '../_theme';
+
+/* Demos */
+.implementation {
+    background-color: $color-base !important;
+}
+.implementation > h3 {
+    color: $color-primary !important;
+}
+
+.implementation h4 {
+    color: $color-secondary !important;
+}
