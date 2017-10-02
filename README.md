@@ -1,3 +1,8 @@
+# Local setup
+
+```npm install && npm start```
+
+
 # PrimeNG
 UI Components for Angular
 
